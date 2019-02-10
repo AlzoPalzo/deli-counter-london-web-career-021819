@@ -5,7 +5,7 @@ def line(line)
     list = "The line is currently:"
     line.each_with_index do |name, index|
       message += "#{index + 1}. name "
-      
+
     end
   end
 end
