@@ -7,6 +7,7 @@ def line(line)
       message += "#{index + 1}. name "
 
     end
+    puts(message)
   end
 end
 
