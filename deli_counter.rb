@@ -4,7 +4,7 @@ def line(line)
   else
     list = "The line is currently: "
     line.each_with_index do |name, index|
-      list += "#{index + 1}. name "
+      list += "#{index + 1}. #{name} "
 
     end
     puts(list)
