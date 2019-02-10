@@ -4,10 +4,10 @@ def line(line)
   else
     list = "The line is currently:"
     line.each_with_index do |name, index|
-      message += "#{index + 1}. name "
+      list += "#{index + 1}. name "
 
     end
-    puts(message)
+    puts(list)
   end
 end
 
