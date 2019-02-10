@@ -2,7 +2,11 @@ def line(line)
   if line.length == 0
     puts("The line is currently empty.")
   else
-    "The line is currently: "
+    list = "The line is currently:"
+    line.each_with_index do |name, index|
+      message += "#{index + 1}. name "
+      
+    end
   end
 end
 
