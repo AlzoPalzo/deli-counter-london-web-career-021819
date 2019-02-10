@@ -16,6 +16,11 @@ def take_a_number(line, name)
   puts("Welcome, #{name}. You are number #{line.length} in line.")
 end
 
-def now_serving
-
+def now_serving(line)
+  if line.length == 0
+    puts("The line is currently empty.")
+  else
+    puts("Currently serving #{line.first}.")
+    line.shift
+  end
 end
